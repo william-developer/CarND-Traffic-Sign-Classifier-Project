@@ -147,7 +147,7 @@ Here are the results of the prediction:
 | Priority road			| Priority road      							|
 
 
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. The accuracy on the test is 99.8%. There is a great difference between them. There are two reasons. One is that images is too small. I should use augmentation technique like image generator. The other is that lenet do not work well on noises situations. 
+The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. The accuracy on the test is 99.8%. There is a great difference between them. There are two reasons. One is that images is too small. I should use augmentation technique like image generator. The other is that lenet do not work well on noises situations. 
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
