@@ -119,7 +119,7 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image8]
 <center>Speed limit (60km/h)</center>
-![this is a title][image9]
+![alt text][image9]
 <center>Stop</center>
 ![alt text][image10]
 <center>Shared use path</center>
