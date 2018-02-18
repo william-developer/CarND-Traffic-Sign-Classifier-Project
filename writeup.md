@@ -117,16 +117,16 @@ The final model's accuracy the training, validation and test set are the same. I
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image8]
-<center>Speed limit (60km/h)</center>
-![alt text][image9]
-<center>Stop</center>
-![alt text][image10]
-<center>Shared use path</center>
-![alt text][image11] 
-<center>Yield</center>
-![alt text][image12] 
-<center>Priority road</center>
+![alt text][image8]  
+<center>Speed limit (60km/h)</center>  
+![alt text][image9]  
+<center>Stop</center>  
+![alt text][image10]  
+<center>Shared use path</center>  
+![alt text][image11]   
+<center>Yield</center>  
+![alt text][image12]   
+<center>Priority road</center>  
 
 The first image might be difficult to classify because the quality of the image is very poor,and the third image might be difficult to classify because it has two signs.
 
