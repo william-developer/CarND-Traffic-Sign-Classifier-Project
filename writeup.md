@@ -34,15 +34,15 @@ The goals / steps of this project are the following:
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is ?
+* The size of training set is ?  
 34799
-* The size of the validation set is ?
+* The size of the validation set is ?  
 4410
-* The size of test set is ?
+* The size of test set is ?  
 12630
-* The shape of a traffic sign image is ?
+* The shape of a traffic sign image is ?  
 (34799, 32, 32, 3)
-* The number of unique classes/labels in the data set is ?
+* The number of unique classes/labels in the data set is ?  
 43
 
 #### 2. Include an exploratory visualization of the dataset.
@@ -94,21 +94,21 @@ To train the model, I use an Adam optimizer with learning rate 0.001 which is ap
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
+* training set accuracy of ?  
 0.993
-* validation set accuracy of ?
+* validation set accuracy of ?  
 0.970(EPOCH 89)
-* test set accuracy of ?
+* test set accuracy of ?  
 0.949
 
 If a well known architecture was chosen:
-* What architecture was chosen?
+* What architecture was chosen?  
 I choose the LeNet to classify the images.
 
-* Why did you believe it would be relevant to the traffic sign application?
+* Why did you believe it would be relevant to the traffic sign application?  
 LeNet is simple and it works well on the Minist dataset and it is also a multi-classification task.
 
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?  
+* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?    
 The final model's accuracy the training, validation and test set are similar. It works well. If the training accuracy is much larger than the validation and test accuracy, it is over-fitting. If all the accuracy are small, it is under-fitting. we can add dropout and regularizer for the over-fitting while we can add more fully connected layers for the under-fitting.
 
 
