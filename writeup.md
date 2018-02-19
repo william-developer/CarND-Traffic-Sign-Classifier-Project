@@ -141,8 +141,8 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| 60km/h      		    | Turn right ahead   	                        |
-| Stop     			    | Road work 									|
+| 60km/h      		    | Go straight or right   	                    |
+| Stop     			    | Bumpy road									|
 | Shared use path		| Roundabout mandatory						    |
 | Yield	      		    | Yield					 				        |
 | Priority road			| Priority road      							|
